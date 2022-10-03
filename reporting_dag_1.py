@@ -28,13 +28,13 @@ schedule_interval = '0 11 * * *'
 def report(chat_id = None):
     chat_id = chat_id or 149956060
     
-    connection = {'host': 'https://clickhouse.lab.karpov.courses',
-                      'database':'simulator_20220720',
-                      'user':'student', 
-                      'password':'dpo_python_2020'
+    connection = {'host': '',
+                      'database':'',
+                      'user':'', 
+                      'password':''
                      }
 
-    bot = telegram.Bot(token = '5556378163:AAF2Pd7mB5mGSLcP12sFeYuX21UfzoWj6PM')
+    bot = telegram.Bot(token = '')
     
     query = '''
 select toDate(time) as day, user_id, action
