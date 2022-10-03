@@ -7,17 +7,17 @@ from airflow.operators.python import get_current_context
 
 
 # подключения к разным бд:
-connection = {'host': 'https://clickhouse.lab.karpov.courses',
-                      'database':'simulator_20220720',
-                      'user':'student', 
-                      'password':'dpo_python_2020'
+connection = {'host': '',
+                      'database':'',
+                      'user':'', 
+                      'password':''
                      }
 
 connection_test = {
-    'host': 'https://clickhouse.lab.karpov.courses',
-    'database':'test',
-    'user':'student-rw',
-    'password':'656e2b0c9c'
+    'host': '',
+    'database':'',
+    'user':'',
+    'password':''
 }
 
 
